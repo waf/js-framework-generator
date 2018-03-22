@@ -1,0 +1,13 @@
+﻿<div class="col-sm-4 subheader">
+    <h4>@Title</h4>
+    <p>
+        @Description
+        <c:NavLink class=@("subheader-link") href=@("/Documentation")>Learn more</c:NavLink>
+    </p>
+</div>
+
+@functions 
+{
+    public string Title { get; set; }
+    public string Description { get; set; }
+}
